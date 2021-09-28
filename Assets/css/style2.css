@@ -1,0 +1,133 @@
+/* Estilos para toda la web*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Estilo encabezado*/
+header{
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 120px;
+    background: #444;
+}
+
+.social{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    background: #ccc;
+    border-radius: 100%;
+}
+
+#logo{
+    position:  absolute;
+    top: 30px;
+    left: 30px;
+    width: 200px;
+    height: 60px;
+    background: #ccc;
+}
+
+#icon1{
+    top: 42px;
+    right: 120px;
+}
+
+#icon2{
+    top: 42px;
+    right: 70px;
+}
+
+#icon3{
+    top: 42px;
+    right: 19px;
+}
+
+/*Barra de navegacion*/
+
+nav{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 48px;
+}
+
+.btn{
+    float: left;
+    width: 196px;
+    margin: 0px 2px;
+    height: 48px;
+    background: #333;
+}
+
+/*Barra superior*/
+
+#superior{
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 192px;
+}
+
+#superior ul{
+    width: 1010px;
+    height: 192px;
+}
+
+#superior ul li{
+    float: left;
+    width: 326px;
+    height: 192px;
+    background: black;
+    margin-right: 10px;
+}
+
+/*Bloque central*/
+
+section{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 453px;
+    background: #aaa;
+}
+
+aside#izq{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 453px;
+    background: #333;
+}
+
+article{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 600px;
+    height: 453px;
+    background: #666;
+}
+
+aside#der{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 453px;
+    background: #333;
+}
+
+/*Pie de pagina*/
+
+footer{
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 70px;
+    background: #888;
+}
