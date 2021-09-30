@@ -21,12 +21,12 @@ body{
         background-image: url(https://ak.picdn.net/shutterstock/videos/32147374/thumb/1.jpg?ip=x480) ;
         background-repeat: no-repeat;
         background-size: 100%;
+        background-attachment: fixed;
 }
 
 #fondo{
-    position: absolute;
-    left: 545px;
-    width: 967px;
+    position: absolute; left: 12%;
+    width: 996.3px;
     height: 900px;
     background: rgb(123, 144, 153);
 }
@@ -107,7 +107,7 @@ nav{
 section{
     position: relative;
     margin: auto;
-    width: 997px;
+    width: 996.9px;
     height: 453px;
     background: #aaa;
 }
