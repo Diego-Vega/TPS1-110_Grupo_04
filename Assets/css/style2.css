@@ -61,6 +61,17 @@ nav{
     margin: 0px 2px;
     height: 48px;
     background: #333;
+    text-align: center;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    padding: 17px 90px;
+    display:block;
+    position:absolute;
+} 
+.btn:hover{
+    background:chartreuse;
 }
 
 /*Barra superior*/
