@@ -138,15 +138,37 @@ footer{
     position: relative;
     margin: 20px auto;
     width: 1000px;
-    height: 70px;
+    height: 90px;
     background: #888;
     text-align: center;
     font-family: 'Roboto', sans-serif
 }
 
+#logofooter{
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
 .piepagina{
-    padding-top: 15px;
+    padding-top: 13px;
     font-size: 14px;
     color: rgb(77, 77, 77);
     padding-left: 30px;
+}
+
+#footerces{
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#suggest{
+    position: absolute;
+    right: 20px;
+    top: 28px;
+    color: rgb(200, 200, 200);
+    font-size: 22px;
+    text-decoration: none;
 }
