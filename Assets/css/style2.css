@@ -60,7 +60,7 @@ nav{
     width: 196px;
     margin: 0px 2px;
     height: 48px;
-    background: #333;
+    background: rgb(146, 172, 211);
     text-align: center;
 }
 .btn a{
@@ -71,7 +71,7 @@ nav{
     position:absolute;
 } 
 .btn:hover{
-    background:chartreuse;
+    background:rgb(52, 71, 156);
 }
 
 /*Barra superior*/
