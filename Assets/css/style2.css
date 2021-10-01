@@ -24,11 +24,15 @@ header{
 
 #logo{
     position:  absolute;
-    top: 30px;
-    left: 30px;
-    width: 200px;
-    height: 60px;
-    background: #ccc;
+    top: 10px;
+    left: 10px;
+    width: 167px;
+    height: 101px;
+}
+
+#img{
+    width: 167px;
+    height: 101px;
 }
 
 #icon1{
