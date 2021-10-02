@@ -18,7 +18,7 @@ header{
     position: absolute;
     width: 42px;
     height: 42px;
-    background: #ccc;
+    background: cornsilk;
     border-radius: 100%;
 }
 
@@ -35,18 +35,23 @@ header{
     height: 101px;
 }
 
+.redes{
+    width: 42px;
+    height: 42px;
+}
+
 #icon1{
-    top: 42px;
+    top: 38px;
     right: 120px;
 }
 
 #icon2{
-    top: 42px;
+    top: 38px;
     right: 70px;
 }
 
 #icon3{
-    top: 42px;
+    top: 38px;
     right: 19px;
 }
 
