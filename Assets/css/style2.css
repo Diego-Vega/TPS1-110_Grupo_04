@@ -14,6 +14,50 @@ header {
   background: rgb(39, 55, 64);
 }
 
+.social {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+}
+
+.redes:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+#logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 167px;
+  height: 101px;
+}
+
+#img {
+  width: 167px;
+  height: 101px;
+}
+
+.redes {
+  width: 42px;
+  height: 42px;
+}
+
+#icon1 {
+  top: 38px;
+  right: 120px;
+}
+
+#icon2 {
+  top: 38px;
+  right: 70px;
+}
+
+#icon3 {
+  top: 38px;
+  right: 19px;
+}
+
 /* Fondo */
 
 body {
@@ -29,38 +73,6 @@ body {
   width: 997px;
   height: 900px;
   background: rgb(123, 144, 153);
-}
-
-.social {
-  position: absolute;
-  width: 42px;
-  height: 42px;
-  background: rgb(179, 212, 230);
-  border-radius: 100%;
-}
-
-#logo {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  width: 200px;
-  height: 60px;
-  background: rgb(179, 212, 230);
-}
-
-#icon1 {
-  top: 42px;
-  right: 120px;
-}
-
-#icon2 {
-  top: 42px;
-  right: 70px;
-}
-
-#icon3 {
-  top: 42px;
-  right: 19px;
 }
 
 /*Barra de navegacion*/
@@ -101,7 +113,6 @@ nav {
   background: rgb(10, 9, 48);
   margin-right: 10px;
 }
-
 
 /*Bloque central*/
 
