@@ -116,6 +116,13 @@ aside h1,p {
 
 }
 
+aside h3 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: auto;
+   
+}
+
 article{
     position: absolute;
     left: 200px;
