@@ -1,152 +1,196 @@
 /* Estilos para toda la web*/
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 /* Estilo encabezado*/
-header{
-    position: relative;
-    margin: 20px auto;
-    width: 1000px;
-    height: 120px;
-    background: #444;
+header {
+  position: relative;
+  margin: 20px auto;
+  width: 997px;
+  height: 120px;
+  background: rgb(39, 55, 64);
 }
 
-.social{
-    position: absolute;
-    width: 42px;
-    height: 42px;
-    background: #ccc;
-    border-radius: 100%;
+/* Fondo */
+
+body {
+  background-image: url(https://ak.picdn.net/shutterstock/videos/32147374/thumb/1.jpg?ip=x480);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
 }
 
-#logo{
-    position:  absolute;
-    top: 30px;
-    left: 30px;
-    width: 200px;
-    height: 60px;
-    background: #ccc;
+#fondo {
+  position: relative;
+  margin: 20px auto;
+  width: 997px;
+  height: 900px;
+  background: rgb(123, 144, 153);
 }
 
-#icon1{
-    top: 42px;
-    right: 120px;
+.social {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  background: rgb(179, 212, 230);
+  border-radius: 100%;
 }
 
-#icon2{
-    top: 42px;
-    right: 70px;
+#logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 200px;
+  height: 60px;
+  background: rgb(179, 212, 230);
 }
 
-#icon3{
-    top: 42px;
-    right: 19px;
+#icon1 {
+  top: 42px;
+  right: 120px;
+}
+
+#icon2 {
+  top: 42px;
+  right: 70px;
+}
+
+#icon3 {
+  top: 42px;
+  right: 19px;
 }
 
 /*Barra de navegacion*/
 
-nav{
-    position: relative;
-    margin: auto;
-    width: 1000px;
-    height: 48px;
+nav {
+  position: relative;
+  margin: auto;
+  width: 1000px;
+  height: 48px;
 }
 
-.btn{
-    float: left;
-    width: 196px;
-    margin: 0px 2px;
-    height: 48px;
-    background:#333;
+.btn {
+  float: left;
+  width: 196px;
+  margin: 0px 1.7px;
+  height: 48px;
+  background: rgb(39, 55, 64);
 }
 
 /*Barra superior*/
 
-#superior{
-    position: relative;
-    margin: 20px auto;
-    width: 1000px;
-    height: 192px;
+#superior {
+  position: relative;
+  margin: 20px auto;
+  width: 1000px;
+  height: 192px;
 }
 
-#superior ul{
-    width: 1010px;
-    height: 192px;
+#superior ul {
+  width: 1010px;
+  height: 192px;
 }
 
-#superior ul li{
-    float: left;
-    width: 326px;
-    height: 192px;
-    background: black;
-    margin-right: 10px;
+#superior ul li {
+  float: left;
+  width: 326px;
+  height: 192px;
+  background: rgb(10, 9, 48);
+  margin-right: 10px;
 }
 
 /*Bloque central*/
 
-section{
-    position: relative;
-    margin: auto;
-    width: 1000px;
-    height: 453px;
-    background: #aaa;
+section {
+  position: relative;
+  margin: auto;
+  width: 996.9px;
+  height: 453px;
+  background: #aaa;
 }
 
-aside#izq{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 200px;
-    height: 453px;
-    background: #333;
+aside#izq {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 453px;
+  background: rgb(39, 55, 64);
 }
 
-article{
-    position: absolute;
-    left: 200px;
-    top: 0;
-    width: 600px;
-    height: 453px;
-    background: #666;
+article {
+  position: absolute;
+  left: 200px;
+  top: 0;
+  width: 600px;
+  height: 453px;
+  background: rgb(51, 117, 153);
 }
 
-article h1, p {
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: cornsilk;
+article h1,
+p {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: cornsilk;
 }
 
-aside#der{
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 200px;
-    height: 453px;
-    background: #333;
+aside#der {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
+  height: 453px;
+  background: rgb(39, 55, 64);
 }
 
 /*Pie de pagina*/
 
-footer{
-    position: relative;
-    margin: 20px auto;
-    width: 1000px;
-    height: 70px;
-    background: #888;
-    text-align: center;
-    font-family: 'Roboto', sans-serif
+footer {
+  position: relative;
+  margin: 20px auto;
+  width: 997px;
+  height: 90px;
+  background: rgb(59, 140, 176);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
-.piepagina{
-    padding-top: 15px;
-    font-size: 14px;
-    color: rgb(77, 77, 77);
-    padding-left: 30px;
+#logofooter {
+  width: 100px;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  background: none;
+}
+
+.piepagina {
+  padding-top: 13px;
+  font-size: 14px;
+  color: rgb(34, 79, 98);
+  padding-left: 30px;
+  background: none;
+}
+
+#footerces {
+  color: black;
+  font-size: 20px;
+  font-family: cursive;
+  background: none;
+}
+
+#suggest {
+  position: absolute;
+  right: 20px;
+  top: 28px;
+  color: rgb(218, 218, 218);
+  font-size: 22px;
+  text-decoration: none;
+  background: none;
 }
